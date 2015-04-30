@@ -1,30 +1,13 @@
 package com.client.view;
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.GridLayout;
-import java.awt.Toolkit;
-
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
-import javax.swing.UIManager;
-
-import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
+import java.awt.*;
+import javax.swing.*;
+/**
+ * @author 王硕
+ * @version 1.0
+ */
 
 public class ClientLoginFrame extends JFrame {
-	/**
-	 * @author 王硕
-	 * @version 1.0
-	 */
+
 	private static final long serialVersionUID = 1L;
 	//头部标签，用于显示头部图片
 	JLabel jlb_headImage;

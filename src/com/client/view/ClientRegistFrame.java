@@ -1,11 +1,13 @@
 package com.client.view;
-/**
- * 注册界面，有教师注册，学生注册
- */
 
 import java.awt.*;
 import javax.swing.*;
 
+/**
+ * @author 王硕，叶青
+ * 
+ * 注册界面，包含教师注册，学生注册
+ */
 public class ClientRegistFrame extends JFrame {
 
 	private static final long serialVersionUID = 1L;

@@ -7,8 +7,7 @@ public class Theme {
 	public static void beauty(){
 		try {
 			UIManager.put("RootPane.setupButtonVisible", false); //去除用户按钮
-			//设置主题
-			BeautyEyeLNFHelper.frameBorderStyle = BeautyEyeLNFHelper.FrameBorderStyle.translucencySmallShadow;
+			BeautyEyeLNFHelper.frameBorderStyle = BeautyEyeLNFHelper.FrameBorderStyle.generalNoTranslucencyShadow;
 			org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper.launchBeautyEyeLNF();
 		}catch (Exception e) {
 			e.printStackTrace();
